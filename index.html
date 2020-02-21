@@ -1,0 +1,546 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ALLIANCE GAMING</title>
+<link rel="shortcut icon" href="images/miniLogo.ico" type="image/ico">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<!-- Custom Theme files -->
+<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<!----font-Awesome----->
+<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!----webfonts---->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+<!----//webfonts---->
+<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+</head>
+<body>
+		<!----start-container---->
+			<!----start-header---->
+		<div id="home" class="header">
+			<div class="container">
+				<!---- start-logo---->
+				<div class="logo">
+					<a href="index.html"><img src="images/logoAlliance.png" height="50px" title="Mabur" /></a>
+				</div>
+				<!---- //End-logo---->
+				<!----start-top-nav---->
+				 <nav class="top-nav">
+					<ul class="top-nav">
+						<li class="active"><a href="#home" class="scroll">Главная</a></li>
+						<li class="page-scroll"><a href="#fea" class="scroll">Услуги</a></li>
+                        <li class="page-scroll"><a href="#power" class="scroll">PC</a></li>
+						<li class="page-scroll"><a href="#port" class="scroll">Портфолио</a></li>
+						<li class="page-scroll"><a href="#test" class="scroll">Отзывы</a></li>
+						<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Забронировать</a></li>
+					</ul>
+					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+				</nav>
+				<div class="clearfix"> </div>
+				<div class="slide-text text-center">
+					<h1>High Quality</h1>
+					<h2>Built with love.</h2>
+                    <a href="https://instagram.com/the_alliance_game_club" class="fa fa-instagram"></a>
+				</div>
+				<!----//End-top-nav---->
+			</div>
+		</div>
+		<!----//End-header---->
+		<!----start-feartures----->
+		<div id="fea" class="features">
+			<div class="container">
+				<div class="head text-center">
+					<h3><span> </span> Наши Услуги </h3>
+					<p>В нашем клубе вы окунетесь в уютную и теплую атмосферу. Приходи и играй на мощных компьютерах по лучшим ценам. Проведи время с нами. 
+                        Мы рады предложить вам </p>
+				</div>
+				<!---- start-features-grids---->
+				<div class="features-grids text-center">
+					<div class="col-md-2 features-grid">
+						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
+						<h3><a href="#">MITHRIL ROOM</a></h3>
+						<p>
+                            <a>
+                            1 HOUR - 1500<br>
+                            NIGHT PACK - 5000<br>
+                            (21:00 - 07:00)<br>
+                            </a>
+                        </p>
+					</div>
+                    <div class="col-md-2 features-grid">
+						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
+						<h3><a href="#">GOLD ROOM</a></h3>
+						<p><a>
+                            1 HOUR  - 800<br>
+                            3 HOURS - 2000<br>
+                            5 HOURS - 3000<br>
+                            PACK START - 1000<br>
+                            (08:00 - 13:00)<br>
+                            NIGHT PACK - 3000<br>
+                            (21:00 - 07:00)<br>
+                            </a></p>
+					</div>
+					<div class="col-md-2 features-grid">
+						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
+						<h3><a href="#">SILVER ROOM</a></h3>
+						<p><a>
+                            1 HOUR - 400<br>
+                            3 HOURS - 1000<br>
+                            5 HOURS - 1500<br>
+                            PACK START - 500<br>
+                            (08:00 - 13:00)<br>
+                            NIGHT PACK - 2000<br>
+                            (21:00 - 07:00)<br>
+                        </a></p>
+					</div>
+                    <div class="col-md-2 features-grid">
+						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
+						<h3><a href="#">PS4</a></h3>
+						<p><a>
+                            1 HOUR - 600<br>
+                            Game List: NBA,<br>
+                            GTA5, GODofWAR,<br>
+                            The Last of Us,<br>
+                            FIFA20, NBA20,<br>
+                            Mortal Combat 11,<br>
+                            Injustice 2<br>
+                        </a></p>
+					</div>
+					<div class="col-md-2 features-grid">
+						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
+						<h3><a href="#">ALLIANCE HOOKAH</a></h3>
+						<p><a>
+                            Ручной Must Have<br>
+                            Sherbet Dark Side<br>
+                            Dayly Hookah Sarma<br>
+                            Adalya Smoking<br>
+                            Hypreme Tangiers<br>
+                            Цена - 3500<br>
+                            С заменой - 5500
+                            </a>
+                        </p>
+					</div>
+                    <div class="col-md-2 features-grid">
+						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
+						<h3><a href="#">LOUNGE</a></h3>
+                        <p><a>
+                            Уютные диванчики<br>
+                            для просмотра фильмов<br>
+                            Настольные игры<br>
+                            Меню МЯТЫ<br>
+                        </a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!---- //End-features-grids---->
+			</div>
+		</div>
+		<!----//End-feartures----->
+		<!---- start-work---->
+		<div id="power" class="work">
+			<div class="container">
+				<div class="head text-center work-head">
+					<h3><span> </span> PC POWER</h3>
+					<p> Мощность компютеров в нашем клубе не разочирует ваши ожидания. <br> К вашим услугам характеристики компютеров каждого зала: </p>
+				</div>
+				<!---- start-work-grids----->
+				<div class="work-grids">
+					<div class="col-md-4 work-grid">
+						<span class="col-md-5 w-icon"> <i class="fa fa-thumbs-up"> </i></span>
+						<div class="col-md-7 work-info">
+							<h4>Silver room</h4>
+							<p>
+                                AMD RYZEN7 1700<br>
+                                16GB<br>
+                                AMD SAPHIRE NITRO RX 580 8GB<br>
+                                ACER 144HZ<br>
+                                HYPER X ALLOY FPS<br>
+                                HYPER X CLOUD 2<br>
+                                HYPER X PULSEFIRE PRO<br>
+                            </p>
+						</div>
+					</div>
+					<div class="col-md-4 work-grid center-work-grid">
+						<span class="col-md-5 w-icon"> <i class="fa fa-tachometer"> </i></span>
+						<div class="col-md-7 work-info">
+							<h4>Gold room</h4>
+							<p>
+                                AMD RYZEN7 2700<br>
+                                KINGSTON HYPERX 16GB<br>
+                                NVIDIA GEFORCE RTX 2060 8GB<br>
+                                ASUS 165HZ<br>
+                                STEELSERIES APEX M750<br>
+                                HYPERX REVOLVER S<br>
+                                ZOWIE FK1<br>
+                            </p>
+						</div>
+					</div>
+					<div class="col-md-4 work-grid">
+						<span class="col-md-5 w-icon"><i class="fa fa-cogs"> </i> </span>
+						<div class="col-md-7 work-info">
+							<h4>Mithril room</h4>
+							<p>
+                                CORE i7 9700k<br>
+                                2 x 8GB T-group<br>
+                                NVIDIA GEFORCE RTX 2070 8GB<br>
+                                BENQ ZOWIE 240HZ<br>
+                                STEELSERIES APEX 7 PRO<br>
+                                HYPERX REVOLVER S<br>
+                                ZOWIE S1<br>
+                            </p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="work-map">
+						<span> </span>
+					</div>
+				</div>
+				<!---- //End-work-grids----->
+			</div>
+		</div>
+		<!---- //End-work---->
+		<!----start-portfolio----->
+		<div id="port" class="portfolio portfolio-box">
+				<div class="head text-center">
+					<h3><span> </span> Портфолио</h3>
+				</div>
+				<!----start-portfolio---->
+               <div id="port" class="portfolio-main">
+	        	<!---- start-portfolio-script----->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+					<!----//End-portfolio-script----->
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="pc ps lounge hookah">All</span></li>
+						<li><span class="filter" data-filter="pc">PC</span></li>
+						<li><span class="filter" data-filter="ps">PS4</span></li>
+                        <li><span class="filter" data-filter="lounge">LOUNGE</span></li>
+                        <li><span class="filter" data-filter="hookah">HOOKAH</span></li>
+					</ul>
+					<div id="portfoliolist">
+					<div class="portfolio pc mix_all" data-cat="pc" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">	
+							<div class="port-grid">
+								<div class="port-grid-text">
+									<p>GOLD ROOM</p>
+									<label class="arrow-icon1"> </label>
+								</div>
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/pcGOLD1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>				
+					<div class="portfolio ps mix_all" data-cat="ps" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<div class="port-grid">
+								<div class="port-grid-text port-grid-text-c">
+									<p>PS4</p>
+									<label class="arrow-icon1 arrow-icon1-l"> </label>
+								</div>
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/ps1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>		
+					<div class="portfolio pc mix_all" data-cat="pc" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<div class="port-grid">
+								<div class="port-grid-text port-grid-text-c">
+									<p>SILVER ROOM</p>
+									<label class="arrow-icon1 arrow-icon1-l"> </label>
+								</div>
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/pcSILVER1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>				
+					<div class="portfolio lounge mix_all" data-cat="lounge" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<div class="port-grid">
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/lounge1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="port-grid-text port-grid-text-c">
+									<p>LOUNGE</p>
+									<label class="arrow-icon1 arrow-icon1-r"> </label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>	
+					<div class="portfolio lounge mix_all" data-cat="lounge" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<div class="port-grid">
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/lounge2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="port-grid-text port-grid-text-c">
+									<p>LOUNGE</p>
+									<label class="arrow-icon1  arrow-icon1-r"> </label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>			
+					<div class="portfolio hookah mix_all" data-cat="hookah" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<div class="port-grid">
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/hookah1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="port-grid-text port-grid-text-c">
+									<p>HOOKAH</p>
+									<label class="arrow-icon1  arrow-icon1-r"> </label>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>	
+                    <div class="portfolio ps mix_all" data-cat="ps" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">	
+							<div class="port-grid">
+								<div class="port-grid-text">
+									<p>PS4</p>
+									<label class="arrow-icon1"> </label>
+								</div>
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/ps2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>				
+					<div class="portfolio pc mix_all" data-cat="pc" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<div class="port-grid">
+								<div class="port-grid-text port-grid-text-c">
+									<p>MYTHRIL ROOM</p>
+									<label class="arrow-icon1 arrow-icon1-l"> </label>
+								</div>
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/pcMITHRIL1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>		
+					<div class="portfolio pc mix_all" data-cat="pc" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<div class="port-grid">
+								<div class="port-grid-text port-grid-text-c">
+									<p>GOLD ROOM</p>
+									<label class="arrow-icon1 arrow-icon1-l"> </label>
+								</div>
+								<div class="port-grid-pic block last">
+									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+								     <img src="images/pcGOLD2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/logoAlliance.png" alt=""/></h2>
+								  	</div></a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+		                </div>
+					</div>
+					<div class="clearfix"> </div>	
+				</div>
+		</div>
+		</div>
+		<div class="clearfix"> </div>
+		<!----//End-portfolio----->
+		<!----start-test-monials---->
+		<div  id="test" class="testmonials">
+			<div class="container">
+				<div class="head text-center">
+						<h3><span> </span> Отзывы </h3>
+				</div>
+			<!----start-testmonial-time-line---->
+			<div class="test-monial-time-line">
+				<div class="col-md-6 test-monial-time-line-left">
+					<div class="test-monial-time-line-grid test-monial-time-line-grid-l1">
+						<div class="col-md-9 test-monial-time-line-left-text">
+							<p>"Друзья, всем советую Alliance Game club. Тут очень мощные компы, сам лично катал. Проверено мною, приходите!"</p>
+						</div>
+						<div class="col-md-3 test-monial-time-line-left-pic">
+							<img src="images/ZhandosResized.jpg" title="name" />
+							<a href="https://instagram.com/zhandos_t">Zhandos Tungyshbaev</a>
+						</div>
+						<span class="grid-point"> </span>
+					</div>
+				</div>
+				<div class="col-md-6 test-monial-time-line-right">
+					<div class="test-monial-time-line-grid test-monial-time-line-grid-r1">
+						<div class="col-md-3 test-monial-time-line-left-pic">
+							<img src="images/FitchResized.jpg" title="name" />
+							<a href="https://instagram.com/fitchcsgo">Bektiyar Bakhytov</a>
+						</div>
+						<div class="col-md-9 test-monial-time-line-left-text">
+							<p>Alliance game club - самый лучший компьютерный клуб в городе! Тут очень атмосферно. Персонал просто супер! </p>
+						</div>
+						<span class="grid-point grid-point1"> </span>
+					</div>
+					<div class="test-monial-time-line-grid test-monial-time-line-grid-r2">
+						<div class="col-md-3 test-monial-time-line-left-pic">
+							<img src="images/AskarbekResized.jpg" title="name" />
+							<a href="hhtps://instagram.com/oscarmhdv">Askarbek Makhmedov</a>
+						</div>
+						<div class="col-md-9 test-monial-time-line-left-text">
+							<p>
+                            "В Alliance game club вы можете найти все для того что бы хорошо провести время. Мощность компов зашкаливает, а ребята отзывчивые."</p>
+						</div>
+						<span class="grid-point grid-point1"> </span>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="test-monial-timeline-connector">
+					<span> </span>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+			<!----//End-testmonial-time-line---->
+		<!----start-footer---->
+				        <div class="col-md-6 contact-left">
+				            <h3><span> </span> Контакты </h3>
+                            <div class="col-md-6">
+				            <p><i class="fa fa-map-marker"> </i> проспект Назарбаева 174б, Алматы, 050010 </p>
+                            </div>
+                            <div class="col-md-6">
+                            <p><i class="fa fa-phone"></i> +7-747-080-87-27</p>
+                            </div>
+						</div>
+    			<!----start-contact---->
+				    <div class="contact-grids">
+		                <div class="clearfix"> </div>
+					</div>
+				<div id="contact" class="contact"> 
+					<div class="contact-map">
+						<iframe width="50%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0%20174%D0%B1+(ALLIANCE%20GAME%20CLUB)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">gps coordinates finder</a></iframe>
+					</div>
+				</div>
+			<!----//End-contact---->
+    		<!----start-footer---->
+		<div class="footer">
+			<div class="container">
+				<div class="footer-left">
+					<a href="#"><img src="images/logoAlliance.png" title="mabur" /></a>
+				</div>
+				<script type="text/javascript">
+				$(document).ready(function() {
+					/*
+					var defaults = {
+			  			containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+			 		};
+					*/
+					
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					
+				});
+			</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+		</div>
+		<!----//End-footer---->
+	</body>
+</html>
+
